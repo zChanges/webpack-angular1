@@ -15,7 +15,7 @@ function configRouter($urlRouterProvider, $stateProvider){
                         let module = require('../src/home.router');
                         $ocLazyLoad.load({name: 'home'});
                         resolve(module.controller);
-                    }));
+                    });
                 });
             }
           }
