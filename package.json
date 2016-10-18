@@ -20,6 +20,12 @@
   "homepage": "https://github.com/zChanges/webpack-angular1#readme",
   "devDependencies": {
     "angular-ui-router": "^0.3.1",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
     "html-webpack-plugin": "^2.22.0",
     "oclazyload": "^1.0.9",
     "webpack": "^1.13.2",

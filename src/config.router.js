@@ -1,4 +1,5 @@
 'use strict'
+var template = require('./views/home.html');
 
 function configRouter($urlRouterProvider, $stateProvider){
     $urlRouterProvider.otherwise('/home');
@@ -6,8 +7,10 @@ function configRouter($urlRouterProvider, $stateProvider){
     $stateProvider
       .stare('home',{
           url:'/home',
-          template:require('../src/views/home.html'),
-          controller: 'HomeController as vm',
+          template:require("./views/home.html"),
+          //templateUrl:'./views/home.html',
+          template: template,
+          controller: 'HomeController',
           resolve:{
             loadHomeController: ($q, $ocLazyLoad) => {
                 return $q((resolve) => {
@@ -18,11 +21,11 @@ function configRouter($urlRouterProvider, $stateProvider){
                     });
                 });
             }
-          }
+          },
       })
 
 }
 
 export default angular
- .module('config.router',[])
+ .module('config.router',['$stateProvider','$urlRouterProvider'])
  .config(configRouter);

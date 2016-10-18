@@ -1,2 +1,2 @@
 'use strict';
-var appModule =require('../src/app');
+import app from "./app.js";
