@@ -9,4 +9,11 @@ import 'angular';
 import 'angular-ui-router';
 import 'ocLazyLoad';
 import configRouter from './config.router.js';
-export default angular.module('myApp',['ui.router','oc.lazyLoad'])
+
+export default angular
+.module('myApp',[
+    'ui.router',
+    'oc.lazyLoad',
+     configRouter.name
+]);
+

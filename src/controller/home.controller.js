@@ -3,6 +3,7 @@
 class HomeController {
   constructor() {
       console.log(111);
+      alert(1111);
   }
   
 }

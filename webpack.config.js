@@ -68,7 +68,7 @@ module.exports = {
     *如果是键值形式的对象，需要打包多个模块采用键值形式
     */
     entry: {
-      src: path.resolve(APP_PATH, 'index.js')
+      src: path.resolve(APP_PATH, 'app.js')
     },
     /*
     *输出的文件名 合并以后的js会命名为bundle.js
@@ -76,7 +76,8 @@ module.exports = {
     */
     output: {
       path: BUILD_PATH,
-      filename: '[name].js'
+      // filename: '[name].js'
+      filename:'bundle.js'
     },
     /*
     *module.loaders:定义对模块的处理逻辑
@@ -87,15 +88,6 @@ module.exports = {
     */
     module: {
       loaders: [
-        // {
-        //   test: /\.scss$/,
-        //   loaders: ['style', 'css', 'sass'],
-        //   include: APP_PATH
-        // },
-        // {
-        //   test: /\.(png|jpg)$/,
-        //   loader: 'url?limit=40000'
-        // },
         { test: /\.html$/, exclude: /node_modules/, loader: 'raw-loader?stage=0'},
         /*安装babel-loader babel-core babel-preset-es2015*/
         {  test: /\.js$/, exclude: /(node_modules|bower_components)/,include: APP_PATH, loader: 'babel', query:{ presets: ['es2015'] } }//ES6
@@ -112,33 +104,3 @@ module.exports = {
 }
 
 
-// var webpack = require('webpack');
-// var path = require('path');
-// var HtmlwebpackPlugin = require('html-webpack-plugin');
-//
-// var ROOT_PATH = path.resolve(__dirname);
-// var APP_PATH = path.resolve(ROOT_PATH, 'src');
-// var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
-//
-// module.exports = {
-//     entry: {
-//       src: path.resolve(APP_PATH, 'index.js')
-//     },
-//     output: {
-//       path: BUILD_PATH,
-//       filename: '[name].js'
-//     },
-//     module: {
-//       loaders: [
-//
-//         {  test: /\.js$/, exclude: /(node_modules|bower_components)/,include: APP_PATH, loader: 'babel', query:{ presets: ['es2015'] } }
-//       ]
-//     },
-//     plugins: [
-//        new HtmlwebpackPlugin({
-//          title: 'webpack-angular',
-//          template:'./src/index.html',
-//          inject:'body'
-//        })
-//     ]
-// }
