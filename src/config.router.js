@@ -1,11 +1,11 @@
 import homeTpl from './tpl/home.html';
-function configRouter($stateProvider,$urlRouterProvider){
-    $urlRouterProvider.otherwise('/home');
-    $stateProvider
-    .stare('home',{
-      url:'/home',
+import page1Tpl from './tpl/page1.html';
+export default function configRouter($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise('/home');
+  $stateProvider
+    .state('home', {
+      url: '/home',
       template:homeTpl,
-      controller: 'HomeController',
       resolve: {
         load: ['$q','$ocLazyLoad',function ($q,$ocLazyLoad) {
             return $q((resolve) => {
@@ -18,8 +18,20 @@ function configRouter($stateProvider,$urlRouterProvider){
         }]
       }
     })
-};
+    .state('page1', {
+      url: '/page1',
+      template:page1Tpl,
+      resolve: {
+        load: ['$q','$ocLazyLoad',function ($q,$ocLazyLoad) {
+            return $q((resolve) => {
+                require.ensure([], () => {
+                    let module = require('./controller/page1Ctrl');
+                    $ocLazyLoad.load({name: 'page1Ctrl'});
+                    resolve(module.controller);
+                });
+            });
+        }]
+      }
+    })
+}
 
-export default angular
-.module('config.Router',[])
-.config(configRouter);

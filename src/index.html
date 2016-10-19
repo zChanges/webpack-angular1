@@ -1,8 +1,8 @@
-<html>
+<html ng-app="app" lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><%= htmlWebpackPlugin.options.title %></title>
+  <title>webpack-angular</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 </head>
 <body>
@@ -10,9 +10,9 @@
     <header class="row">
       <nav class="col-xs-12">
         <ul class="list-inline">
-          <li><a ui-sref="/home">Home</a></li>
-          <li><a ui-sref="home.about">Home/About</a></li>
-          <li><a ui-sref="messages">Messages</a></li>
+          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="page1">About</a></li>
+          <li><a ui-sref="page2">Messages</a></li>
         </ul>
       </nav>
     </header>

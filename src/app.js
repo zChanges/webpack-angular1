@@ -1,19 +1,8 @@
-// require('angular')
-// .module('myApp',[
-//   require('angular-ui-router'),
-//  (() => { require('oclazyload'); return 'oc.lazyLoad' })(),
-//   // require('oclazyload'),
-//   require('../src/config.router').name
-// ]);
-import 'angular';
-import 'angular-ui-router';
-import 'ocLazyLoad';
+import angular from 'angular';
+import uirouter from 'angular-ui-router';
+import ocLazyLoad from 'ocLazyLoad'
+
 import configRouter from './config.router.js';
 
-export default angular
-.module('myApp',[
-    'ui.router',
-    'oc.lazyLoad',
-     configRouter.name
-]);
-
+angular.module('app',[uirouter,ocLazyLoad])
+.config(configRouter);

@@ -1,13 +1,15 @@
 'use strict';
 
-class HomeController {
-  constructor() {
-      console.log(111);
-      alert(1111);
-  }
-  
-}
+// class HomeController {
+//   constructor() {
+//       console.log('HomeController1');
+//       this.name = "home";
+//       alert(this.name);
+//   }
+// }
 
 export default angular
-  .module('home.controller', [])
-  .controller('HomeController', HomeController);
+  .module('homeCtrl', [])
+  .controller('homeCtrl', ['$scope',function($scope){
+    $scope.name = "home";
+  }]);
