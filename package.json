@@ -4,6 +4,7 @@
   "description": "webapck-angular-lozyload",
   "main": "index.js",
   "scripts": {
+    "postinstall": "typings install",
     "start": "webpack-dev-server --hot --inline",
     "test": "webpack-dev-server --config webpack.test.config.js",
     "build": "webpack --progress --profile --colors --config webpack.production.config.js"
@@ -26,6 +27,9 @@
     "html-webpack-plugin": "^2.22.0",
     "oclazyload": "^1.0.9",
     "raw-loader": "^0.5.1",
+    "ts-loader": "^0.9.5",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },

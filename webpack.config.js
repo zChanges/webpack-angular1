@@ -79,6 +79,10 @@ module.exports = {
       // filename: '[name].js'
       filename:'bundle.js'
     },
+    resolve: {
+        root: __dirname,
+        extensions: ['', '.ts', '.js', '.json']
+    },
     /*
     *module.loaders:定义对模块的处理逻辑
     *test:正则，用于匹配要处理的文件
@@ -90,7 +94,8 @@ module.exports = {
       loaders: [
         { test: /\.html$/, exclude: /node_modules/, loader: 'raw-loader?stage=0'},
         /*安装babel-loader babel-core babel-preset-es2015*/
-        {  test: /\.js$/, exclude: /(node_modules|bower_components)/,include: APP_PATH, loader: 'babel', query:{ presets: ['es2015'] } }//ES6
+        {  test: /\.js$/, exclude: /(node_modules|bower_components)/,include: APP_PATH, loader: 'babel', query:{ presets: ['es2015'] } },//ES6
+        {test: /\.ts(x?)$/, loader: 'ts-loader'},
       ]
     },
     //添加我们的插件 会在build自动生成一个html文件
