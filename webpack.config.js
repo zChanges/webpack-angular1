@@ -68,7 +68,7 @@ module.exports = {
     *如果是键值形式的对象，需要打包多个模块采用键值形式
     */
     entry: {
-      src: path.resolve(APP_PATH, 'app.js')
+      src: path.resolve(APP_PATH, 'app')
     },
     /*
     *输出的文件名 合并以后的js会命名为bundle.js
@@ -95,7 +95,7 @@ module.exports = {
         { test: /\.html$/, exclude: /node_modules/, loader: 'raw-loader?stage=0'},
         /*安装babel-loader babel-core babel-preset-es2015*/
         {  test: /\.js$/, exclude: /(node_modules|bower_components)/,include: APP_PATH, loader: 'babel', query:{ presets: ['es2015'] } },//ES6
-        {test: /\.ts(x?)$/, loader: 'ts-loader'},
+        {test: /\.ts(x?)$/, loader: 'ts-loader',  exclude: /node_modules/},
       ]
     },
     //添加我们的插件 会在build自动生成一个html文件
