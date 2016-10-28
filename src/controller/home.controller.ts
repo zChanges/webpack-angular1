@@ -1,16 +1,17 @@
 'use strict';
-
-import {app} from '../app';
+import { app } from './../app';
 
 interface homeViewModel extends ng.IScope{
   name:string;
 }
-export default class homeController{
+class homeController{
   constructor(private $scope:homeViewModel){
-    this.init();
-  };
-  init():void{
     this.$scope.name = "hello!Home"
-  }
+  };
 }
-app.controller("homeController",homeController);
+
+
+// app.controller("homeController",homeController);
+angular.module("homeController",[])
+.controller("homeController",homeController);
+

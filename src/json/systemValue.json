@@ -1,0 +1,1091 @@
+﻿{
+  "ReceivableFeeType": [
+    {
+      "text": "运费",
+      "value": "1"
+    },
+    {
+      "text": "卸车费",
+      "value": "2"
+    },
+    {
+      "text": "短驳费",
+      "value": "3"
+    },
+    {
+      "text": "进仓费",
+      "value": "4"
+    },
+    {
+      "text": "额外费用",
+      "value": "5"
+    },
+    {
+      "text": "其他费用",
+      "value": "6"
+    }
+  ],
+  "SettleStatus": [
+    {
+      "text": "办理",
+      "value": "1"
+    },
+    {
+      "text": "退回办理",
+      "value": "2"
+    },
+    {
+      "text": "已审核",
+      "value": "3"
+    },
+    {
+      "text": "已对账",
+      "value": "4"
+    }
+  ],
+  "systemlevel": [
+    {
+      "text": "所有平台",
+      "value": "1"
+    },
+    {
+      "text": "TMS平台",
+      "value": "2"
+    },
+    {
+      "text": "来货拉平台",
+      "value": "3"
+    },
+    {
+      "text": "系统平台",
+      "value": "4"
+    },
+    {
+      "text": "客户服务平台",
+      "value": "5"
+    }
+  ],
+  "UrgencyUnit": [
+    {
+      "text": "天",
+      "value": "1"
+    },
+    {
+      "text": "小时",
+      "value": "2"
+    },
+    {
+      "text": "分钟",
+      "value": "3"
+    }
+  ],
+  "infolevel": [
+    {
+      "text": "一级",
+      "value": "1"
+    },
+    {
+      "text": "二级",
+      "value": "2"
+    }
+  ],
+  "infocarlength": [
+    {
+      "text": "4.2米",
+      "value": "1"
+    },
+    {
+      "text": "5.8米",
+      "value": "2"
+    },
+    {
+      "text": "6米",
+      "value": "3"
+    },
+    {
+      "text": "6.2米",
+      "value": "4"
+    },
+    {
+      "text": "6.5米",
+      "value": "5"
+    },
+    {
+      "text": "6.8米",
+      "value": "6"
+    },
+    {
+      "text": "7.6米",
+      "value": "7"
+    },
+    {
+      "text": "8.6米",
+      "value": "8"
+    },
+    {
+      "text": "8.7米",
+      "value": "9"
+    },
+    {
+      "text": "9.6米",
+      "value": "10"
+    },
+    {
+      "text": "13米",
+      "value": "11"
+    },
+    {
+      "text": "13.5米",
+      "value": "12"
+    },
+    {
+      "text": "16米",
+      "value": "13"
+    },
+    {
+      "text": "17.5米",
+      "value": "14"
+    },
+    {
+      "text": "其他",
+      "value": "15"
+    }
+  ],
+  "InvoiceStatus": [
+    {
+      "text": "未开票",
+      "value": "1"
+    },
+    {
+      "text": "不含税",
+      "value": "2"
+    },
+    {
+      "text": "已开票",
+      "value": "3"
+    }
+  ],
+  "infocarattachment": [
+    {
+      "text": "驾驶证",
+      "value": "1"
+    },
+    {
+      "text": "挂车证",
+      "value": "2"
+    },
+    {
+      "text": "行驶证",
+      "value": "3"
+    },
+    {
+      "text": "身份证",
+      "value": "4"
+    },
+    {
+      "text": "车辆照片",
+      "value": "5"
+    }
+  ],
+  "infocarrierattachment": [
+    {
+      "text": "头像",
+      "value": "1"
+    },
+    {
+      "text": "身份证",
+      "value": "2"
+    },
+    {
+      "text": "营业执照",
+      "value": "3"
+    },
+    {
+      "text": "税务登记证",
+      "value": "4"
+    },
+    {
+      "text": "道路经营许可证",
+      "value": "5"
+    }
+  ],
+  "infotype": [
+    {
+      "text": "发货流程",
+      "value": "1"
+    },
+    {
+      "text": "结账流程",
+      "value": "2"
+    },
+    {
+      "text": "收货地址",
+      "value": "3"
+    },
+    {
+      "text": "注意事项",
+      "value": "4"
+    },
+    {
+      "text": "厂付单价",
+      "value": "5"
+    },
+    {
+      "text": "合同资料",
+      "value": "6"
+    },
+    {
+      "text": "其他",
+      "value": "7"
+    }
+  ],
+  "jobtype": [
+    {
+      "text": "计划员",
+      "value": "1"
+    },
+    {
+      "text": "发货员",
+      "value": "2"
+    },
+    {
+      "text": "结算员",
+      "value": "3"
+    },
+    {
+      "text": "其他",
+      "value": "4"
+    }
+  ],
+  "pricestate": [
+    {
+      "text": "有效",
+      "value": "1"
+    },
+    {
+      "text": "无效",
+      "value": "2"
+    },
+    {
+      "text": "过期",
+      "value": "3"
+    }
+  ],
+  "pricetype": [
+    {
+      "text": "含税",
+      "value": "1"
+    },
+    {
+      "text": "不含税",
+      "value": "2"
+    },
+    {
+      "text": "未知",
+      "value": "3"
+    }
+  ],
+  "commissionertype": [
+    {
+      "text": "计划专员",
+      "value": "1"
+    },
+    {
+      "text": "调度专员",
+      "value": "2"
+    },
+    {
+      "text": "调度经理",
+      "value": "3"
+    },
+    {
+      "text": "客服专员",
+      "value": "4"
+    },
+    {
+      "text": "商务专员",
+      "value": "5"
+    },
+    {
+      "text": "结算专员",
+      "value": "6"
+    },
+    {
+      "text": "独立专员",
+      "value": "7"
+    },
+    {
+      "text": "客服经理",
+      "value": "8"
+    }
+  ],
+  "inquirystatus": [
+    {
+      "text": "应付报价",
+      "value": "2"
+    },
+    {
+      "text": "退回下单",
+      "value": "3"
+    },
+    {
+      "text": "应收报价",
+      "value": "4"
+    },
+    {
+      "text": "退回报价",
+      "value": "5"
+    },
+    {
+      "text": "待审核",
+      "value": "6"
+    },
+    {
+      "text": "审核退回",
+      "value": "7"
+    },
+    {
+      "text": "已审核",
+      "value": "8"
+    },
+    {
+      "text": "已中标",
+      "value": "9"
+    },
+    {
+      "text": "未中标",
+      "value": "10"
+    },
+    {
+      "text": "中标待定",
+      "value": "11"
+    },
+    {
+      "text": "询价终结",
+      "value": "12"
+    }
+  ],
+  "inquiryorder": [
+    {
+      "text": "总询价单编号",
+      "value": "1"
+    },
+    {
+      "text": "子询价单编号",
+      "value": "2"
+    },
+    {
+      "text": "客户单位名称",
+      "value": "3"
+    },
+    {
+      "text": "货物名称",
+      "value": "4"
+    },
+    {
+      "text": "货物数量",
+      "value": "5"
+    },
+    {
+      "text": "车长",
+      "value": "6"
+    },
+    {
+      "text": "下单时间",
+      "value": "7"
+    },
+    {
+      "text": "紧急程度",
+      "value": "8"
+    },
+    {
+      "text": "询价状态",
+      "value": "9"
+    }
+  ],
+  "ordersort": [
+    {
+      "text": "订单编号",
+      "value": "1"
+    },
+    {
+      "text": "客户单位",
+      "value": "2"
+    },
+    {
+      "text": "发货地址",
+      "value": "3"
+    },
+    {
+      "text": "中转地",
+      "value": "4"
+    },
+    {
+      "text": "送货地址",
+      "value": "5"
+    },
+    {
+      "text": "货物名称",
+      "value": "6"
+    },
+    {
+      "text": "货物数量",
+      "value": "7"
+    },
+    {
+      "text": "所需车长",
+      "value": "8"
+    },
+    {
+      "text": "发货时间",
+      "value": "9"
+    },
+    {
+      "text": "紧急程度",
+      "value": "10"
+    },
+    {
+      "text": "订单状态",
+      "value": "11"
+    },
+    {
+      "text": "下单时间",
+      "value": "12"
+    }
+  ],
+  "receivablesort": [
+    {
+      "text": "应收总编号",
+      "value": "1"
+    },
+    {
+      "text": "应收编号",
+      "value": "2"
+    },
+    {
+      "text": "应收费用类型",
+      "value": "3"
+    },
+    {
+      "text": "应收说明",
+      "value": "4"
+    },
+    {
+      "text": "客户单位",
+      "value": "5"
+    },
+    {
+      "text": "结算单位",
+      "value": "6"
+    },
+    {
+      "text": "送货地址",
+      "value": "7"
+    },
+    {
+      "text": "发货时间",
+      "value": "8"
+    },
+    {
+      "text": "货物名称",
+      "value": "9"
+    },
+    {
+      "text": "应收总价",
+      "value": "10"
+    },
+    {
+      "text": "合同号",
+      "value": "11"
+    },
+    {
+      "text": "车牌号",
+      "value": "12"
+    },
+    {
+      "text": "结算状态",
+      "value": "13"
+    },
+    {
+      "text": "回单状态",
+      "value": "14"
+    }
+  ],
+  "carrierordersort": [
+    {
+      "text": "订单编号",
+      "value": "1"
+    },
+    {
+      "text": "车牌号",
+      "value": "2"
+    },
+    {
+      "text": "车长",
+      "value": "3"
+    },
+    {
+      "text": "发货时间",
+      "value": "4"
+    },
+    {
+      "text": "发货地址",
+      "value": "5"
+    },
+    {
+      "text": "收货地址",
+      "value": "6"
+    },
+    {
+      "text": "中转地",
+      "value": "7"
+    },
+    {
+      "text": "合同编号",
+      "value": "8"
+    },
+    {
+      "text": "合同状态",
+      "value": "9"
+    },
+    {
+      "text": "油卡状态",
+      "value": "10"
+    },
+    {
+      "text": "回单状态",
+      "value": "11"
+    },
+    {
+      "text": "客户单位",
+      "value": "12"
+    },
+    {
+      "text": "订单状态",
+      "value": "13"
+    }
+  ],
+  "carriersort": [
+    {
+      "text": "承运商编号",
+      "value": "1"
+    },
+    {
+      "text": "承运商类型",
+      "value": "2"
+    },
+    {
+      "text": "承运商名称",
+      "value": "3"
+    },
+    {
+      "text": "承运商号码",
+      "value": "4"
+    },
+    {
+      "text": "承运商等级",
+      "value": "5"
+    },
+    {
+      "text": "录入人",
+      "value": "6"
+    }
+  ],
+  "vehiclesort": [
+    {
+      "text": "车辆编号",
+      "value": "1"
+    },
+    {
+      "text": "车牌号",
+      "value": "2"
+    },
+    {
+      "text": "车型",
+      "value": "3"
+    },
+    {
+      "text": "车长",
+      "value": "4"
+    },
+    {
+      "text": "录入人",
+      "value": "5"
+    },
+    {
+      "text": "驾驶员",
+      "value": "6"
+    },
+    {
+      "text": "驾驶员编号",
+      "value": "7"
+    },
+    {
+      "text": "承运类别",
+      "value": "8"
+    },
+    {
+      "text": "主营线路",
+      "value": "9"
+    },
+    {
+      "text": "当前位置",
+      "value": "10"
+    },
+    {
+      "text": "定位日期",
+      "value": "11"
+    }
+  ],
+  "cartype": [
+    {
+      "text": "厢车",
+      "value": "1"
+    },
+    {
+      "text": "飞翼",
+      "value": "2"
+    },
+    {
+      "text": "半挂",
+      "value": "3"
+    },
+    {
+      "text": "标厢",
+      "value": "4"
+    },
+    {
+      "text": "大平板",
+      "value": "5"
+    },
+    {
+      "text": "平板",
+      "value": "6"
+    },
+    {
+      "text": "高低板",
+      "value": "7"
+    },
+    {
+      "text": "高栏平板",
+      "value": "8"
+    },
+    {
+      "text": "高栏高低板",
+      "value": "9"
+    },
+    {
+      "text": "大件车抽拉板",
+      "value": "10"
+    },
+    {
+      "text": "大件车超低板",
+      "value": "11"
+    },
+    {
+      "text": "自卸车",
+      "value": "12"
+    },
+    {
+      "text": "单车",
+      "value": "13"
+    },
+    {
+      "text": "其他",
+      "value": "14"
+    }
+  ],
+  "OrderStatus": [
+    {
+      "text": "派车中",
+      "value": "1"
+    },
+    {
+      "text": "退回下单",
+      "value": "2"
+    },
+    {
+      "text": "已派车",
+      "value": "3"
+    },
+    {
+      "text": "退回派车",
+      "value": "4"
+    },
+    {
+      "text": "待发货",
+      "value": "5"
+    },
+    {
+      "text": "已发货",
+      "value": "6"
+    },
+    {
+      "text": "货已送达",
+      "value": "7"
+    },
+    {
+      "text": "订单终结",
+      "value": "8"
+    }
+  ],
+  "ContractStatus": [
+    {
+      "text": "合同未签",
+      "value": "1"
+    },
+    {
+      "text": "合同已签",
+      "value": "2"
+    },
+    {
+      "text": "合同已回",
+      "value": "3"
+    }
+  ],
+  "ReceiptStatus": [
+    {
+      "text": "无回单",
+      "value": "1"
+    },
+    {
+      "text": "有回单",
+      "value": "2"
+    },
+    {
+      "text": "回单部分已回",
+      "value": "3"
+    },
+    {
+      "text": "回单已回",
+      "value": "4"
+    }
+  ],
+  "OilCardStatus": [
+    {
+      "text": "无油卡",
+      "value": "1"
+    },
+    {
+      "text": "有油卡",
+      "value": "2"
+    },
+    {
+      "text": "油卡已回",
+      "value": "3"
+    }
+  ],
+  "FeeType": [
+    {
+      "text": "预付款",
+      "value": "1"
+    },
+    {
+      "text": "易耗品(预付)",
+      "value": "2"
+    },
+    {
+      "text": "易耗品(月结)",
+      "value": "3"
+    },
+    {
+      "text": "吊费(预付)",
+      "value": "4"
+    },
+    {
+      "text": "吊费(月结)",
+      "value": "5"
+    },
+    {
+      "text": "卸车费(预付)",
+      "value": "6"
+    },
+    {
+      "text": "卸车费(月结)",
+      "value": "7"
+    },
+    {
+      "text": "保险费(预付)",
+      "value": "8"
+    },
+    {
+      "text": "货到打卡",
+      "value": "9"
+    },
+    {
+      "text": "货到收款",
+      "value": "10"
+    },
+    {
+      "text": "额外费用",
+      "value": "11"
+    },
+    {
+      "text": "保险费(月结)",
+      "value": "12"
+    },
+    {
+      "text": "回单款(月结)",
+      "value": "13"
+    },
+    {
+      "text": "短驳费",
+      "value": "14"
+    },
+    {
+      "text": "进仓费",
+      "value": "15"
+    },
+    {
+      "text": "其他",
+      "value": "16"
+    },
+    {
+      "text": "回单款(预付)",
+      "value": "17"
+    }
+  ],
+  "FeeStatus": [
+    {
+      "text": "办理",
+      "value": "1"
+    },
+    {
+      "text": "退回办理",
+      "value": "2"
+    },
+    {
+      "text": "待结算",
+      "value": "3"
+    },
+    {
+      "text": "已结算",
+      "value": "4"
+    },
+    {
+      "text": "退回结算",
+      "value": "5"
+    },
+    {
+      "text": "已审核",
+      "value": "6"
+    },
+    {
+      "text": "已付款",
+      "value": "7"
+    },
+    {
+      "text": "付款中",
+      "value": "8"
+    },
+    {
+      "text": "付款失败",
+      "value": "9"
+    },
+    {
+      "text": "部分已付",
+      "value": "10"
+    }
+  ],
+  "goodsquantityunit": [
+    {
+      "text": "吨",
+      "value": "1"
+    },
+    {
+      "text": "立方",
+      "value": "2"
+    },
+    {
+      "text": "车",
+      "value": "3"
+    },
+    {
+      "text": "件",
+      "value": "4"
+    },
+    {
+      "text": "托",
+      "value": "5"
+    },
+    {
+      "text": "台",
+      "value": "6"
+    },
+    {
+      "text": "其他",
+      "value": "7"
+    }
+  ],
+  "carriageway": [
+    {
+      "text": "整车",
+      "value": "1"
+    },
+    {
+      "text": "零担",
+      "value": "2"
+    },
+    {
+      "text": "整车/零担",
+      "value": "3"
+    }
+  ],
+  "carriagetype": [
+    {
+      "text": "整车",
+      "value": "1"
+    },
+    {
+      "text": "零担",
+      "value": "2"
+    },
+    {
+      "text": "短驳",
+      "value": "3"
+    }
+  ],
+  "carriertype": [
+    {
+      "text": "集装箱运输",
+      "value": "1"
+    },
+    {
+      "text": "司机",
+      "value": "2"
+    },
+    {
+      "text": "配货站",
+      "value": "3"
+    },
+    {
+      "text": "物流公司",
+      "value": "4"
+    },
+    {
+      "text": "车队",
+      "value": "5"
+    },
+    {
+      "text": "铁运",
+      "value": "6"
+    },
+    {
+      "text": "短驳",
+      "value": "7"
+    },
+    {
+      "text": "专线",
+      "value": "8"
+    },
+    {
+      "text": "海运",
+      "value": "9"
+    }
+  ],
+  "PaymentMethod": [
+    {
+      "text": "现金",
+      "value": "1"
+    },
+    {
+      "text": "打卡",
+      "value": "2"
+    },
+    {
+      "text": "石化油卡",
+      "value": "3"
+    },
+    {
+      "text": "石油油卡",
+      "value": "4"
+    }
+  ],
+  "carrierlevel": [
+    {
+      "text": "普通承运商",
+      "value": "1"
+    },
+    {
+      "text": "临时承运商",
+      "value": "2"
+    },
+    {
+      "text": "VIP承运商",
+      "value": "3"
+    }
+  ],
+  "SettlementType": [
+    {
+      "text": "配送结算",
+      "value": "1"
+    },
+    {
+      "text": "到付结算",
+      "value": "2"
+    },
+    {
+      "text": "公里数结算",
+      "value": "3"
+    }
+  ],
+  "priceunit": [
+    {
+      "text": "元/车",
+      "value": "1"
+    },
+    {
+      "text": "元/吨",
+      "value": "2"
+    },
+    {
+      "text": "元/立方",
+      "value": "3"
+    },
+    {
+      "text": "元/件",
+      "value": "4"
+    },
+    {
+      "text": "元/公里",
+      "value": "5"
+    },
+    {
+      "text": "元/工程",
+      "value": "6"
+    },
+    {
+      "text": "元/吨*公里",
+      "value": "7"
+    },
+    {
+      "text": "元/托",
+      "value": "8"
+    }
+
+  ],
+  "ReceiptAuditedStatus": [
+    {
+      "text": "已审核",
+      "value": "1"
+    },
+    {
+      "text": "未审核",
+      "value": "2"
+    }
+  ],
+  "FeeCanPaidType": [
+    {
+      "text": "不可支付",
+      "value": "1"
+    },
+    {
+      "text": "可支付",
+      "value": "2"
+    },
+    {
+      "text": "可重试",
+      "value": "3"
+    }
+  ]
+}

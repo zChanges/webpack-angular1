@@ -1,8 +1,3 @@
-// import homeTpl from './tpl/home.html';
-// import page1Tpl from './tpl/page1.html';
-let homeTpl = require("./tpl/home.html");
-let page1Tpl = require("./tpl/page1.html");
-
 function configRouter($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/home');
   $stateProvider
@@ -14,9 +9,9 @@ function configRouter($stateProvider, $urlRouterProvider) {
         load: ['$q','$ocLazyLoad',function ($q,$ocLazyLoad) {
             return $q((resolve) => {
                 require.ensure([], () => {
-                    let module = require('./controller/home.controller.ts');
+                    let module = require('./controller/home.controller');
                     $ocLazyLoad.load({name: 'homeController'});
-                     resolve();
+                     resolve(module);
                 });
             });
         }]
@@ -25,17 +20,21 @@ function configRouter($stateProvider, $urlRouterProvider) {
     .state('page1', {
       url: '/page1',
       templateUrl:"./src/tpl/page1.html",
+      controller:"pageController",
       resolve: {
         load: ['$q','$ocLazyLoad',function ($q,$ocLazyLoad) {
             return $q((resolve) => {
                 require.ensure([], () => {
                     let module = require('./controller/page1Ctrl');
-                    $ocLazyLoad.load({name: 'page1Ctrl'});
-                    resolve();
+                    $ocLazyLoad.load({name: 'pageController'});
+                    resolve(module);
                 });
             });
         }]
       }
     })
 }
+
 export default configRouter;
+
+
